@@ -247,9 +247,6 @@ def plotScatterMatrix(df1, plotSize, textSize):
         ax[i, j].annotate('Corr. coef = %.3f' % corrs[i, j], (0.8, 0.2), xycoords='axes fraction', ha='center', va='center', size=textSize)
     plt.suptitle('Scatter and Density Plot')
     plt.show()
-
-plotScatterMatrix(df, 20, 10)
-
 X= df[l1]
 y = df[["prognosis"]]
 np.ravel(y)
