@@ -1,9 +1,6 @@
 
 import matplotlib.pyplot as plt
 
-#Importing Libraries to create GUI
-from tkinter import *
-
 #Importing Libraries to perform calculations
 import numpy as np
 import pandas as pd
