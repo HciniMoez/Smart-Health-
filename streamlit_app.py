@@ -271,7 +271,7 @@ tr.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic chol
 #printing the top 5 rows of the testing data
 tr.head()
 plotPerColumnDistribution(tr, 10, 5)
-plotScatterMatrix(tr, 20, 10)
+
 
 X_test= tr[l1]
 y_test = tr[["prognosis"]]
